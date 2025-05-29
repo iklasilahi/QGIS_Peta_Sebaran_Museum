@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
+        <link rel="stylesheet" href="css/qgis2web.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+        </div>
+        <script src="js/qgis2web_expressions.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/L.Control.Layers.Tree.min.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="js/Autolinker.min.js"></script>
+        <script src="js/rbush.min.js"></script>
+        <script src="js/labelgun.min.js"></script>
+        <script src="js/labels.js"></script>
+        <script src="data/IMPORTPOTO_1.js"></script>
+        <script src="data/TITIK_KOOORDINAT_2.js"></script>
+        <script src="data/LIGHTNESS_MUSEUM_3.js"></script>
+        <script src="data/centroid_4.js"></script>
+        <script>
+        var map = L.map('map', {
+            zoomControl:false, maxZoom:28, minZoom:1
+        }).fitBounds([[-5.651644972696415,92.99335519613236],[8.01763080177696,117.84096944280309]]);
+        var hash = new L.Hash(map);
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
+        // remove popup's row if "visible-with-data"
+        function removeEmptyRowsFromPopupContent(content, feature) {
+         var tempDiv = document.createElement('div');
+         tempDiv.innerHTML = content;
+         var rows = tempDiv.querySelectorAll('tr');
+         for (var i = 0; i < rows.length; i++) {
+             var td = rows[i].querySelector('td.visible-with-data');
+             var key = td ? td.id : '';
+             if (td && td.classList.contains('visible-with-data') && feature.properties[key] == null) {
+                 rows[i].parentNode.removeChild(rows[i]);
+             }
+         }
+         return tempDiv.innerHTML;
+        }
+        // add class to format popup if it contains media
+		function addClassToPopupIfMedia(content, popup) {
+			var tempDiv = document.createElement('div');
+			tempDiv.innerHTML = content;
+			if (tempDiv.querySelector('td img')) {
+				popup._contentNode.classList.add('media');
+					// Delay to force the redraw
+					setTimeout(function() {
+						popup.update();
+					}, 10);
+			} else {
+				popup._contentNode.classList.remove('media');
+			}
+		}
+        var zoomControl = L.control.zoom({
+            position: 'topleft'
+        }).addTo(map);
+        var bounds_group = new L.featureGroup([]);
+        function setBounds() {
+        }
+        map.createPane('pane_OSMStandard_0');
+        map.getPane('pane_OSMStandard_0').style.zIndex = 400;
+        var layer_OSMStandard_0 = L.tileLayer('http://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            pane: 'pane_OSMStandard_0',
+            opacity: 1.0,
+            attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            minZoom: 1,
+            maxZoom: 28,
+            minNativeZoom: 0,
+            maxNativeZoom: 19
+        });
+        layer_OSMStandard_0;
+        map.addLayer(layer_OSMStandard_0);
+        function pop_IMPORTPOTO_1(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_ID'] !== null ? autolinker.link(String(feature.properties['Museum_ID']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_kod'] !== null ? autolinker.link(String(feature.properties['Museum_kod']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_NAM'] !== null ? autolinker.link(String(feature.properties['Museum_NAM']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Pro'] !== null ? autolinker.link(String(feature.properties['Museum_Pro']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Kab'] !== null ? autolinker.link(String(feature.properties['Museum_Kab']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Ala'] !== null ? autolinker.link(String(feature.properties['Museum_Ala']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_LAT'] !== null ? autolinker.link(String(feature.properties['Museum_LAT']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_LON'] !== null ? autolinker.link(String(feature.properties['Museum_LON']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Jen'] !== null ? autolinker.link(String(feature.properties['Museum_Jen']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Tip'] !== null ? autolinker.link(String(feature.properties['Museum_Tip']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Pen'] !== null ? autolinker.link(String(feature.properties['Museum_Pen']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Fot'] !== null ? '<img src="images/' + String(feature.properties['Museum_Fot']).replace(/[\\/:]/g, '_').trim().replace(/'/g, '\'').replace(/"/g, '&quot;') + '">' : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_P_1'] !== null ? autolinker.link(String(feature.properties['Museum_P_1']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Kar'] !== null ? autolinker.link(String(feature.properties['Museum_Kar']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_IMPORTPOTO_1_0() {
+            return {
+                pane: 'pane_IMPORTPOTO_1',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(133,182,111,1.0)',
+                interactive: true,
+            }
+        }
+        map.createPane('pane_IMPORTPOTO_1');
+        map.getPane('pane_IMPORTPOTO_1').style.zIndex = 401;
+        map.getPane('pane_IMPORTPOTO_1').style['mix-blend-mode'] = 'normal';
+        var layer_IMPORTPOTO_1 = new L.geoJson(json_IMPORTPOTO_1, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_IMPORTPOTO_1',
+            layerName: 'layer_IMPORTPOTO_1',
+            pane: 'pane_IMPORTPOTO_1',
+            onEachFeature: pop_IMPORTPOTO_1,
+            style: style_IMPORTPOTO_1_0,
+        });
+        bounds_group.addLayer(layer_IMPORTPOTO_1);
+        map.addLayer(layer_IMPORTPOTO_1);
+        function pop_TITIK_KOOORDINAT_2(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['ID'] !== null ? autolinker.link(String(feature.properties['ID']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['kode'] !== null ? autolinker.link(String(feature.properties['kode']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['NAMA ITEM DATA'] !== null ? autolinker.link(String(feature.properties['NAMA ITEM DATA']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Provinsi'] !== null ? autolinker.link(String(feature.properties['Provinsi']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Kabupaten'] !== null ? autolinker.link(String(feature.properties['Kabupaten']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Alamat'] !== null ? autolinker.link(String(feature.properties['Alamat']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LATITUDE'] !== null ? autolinker.link(String(feature.properties['LATITUDE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['LONGITUDE'] !== null ? autolinker.link(String(feature.properties['LONGITUDE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Jenis Museum'] !== null ? autolinker.link(String(feature.properties['Jenis Museum']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Tipe Museum'] !== null ? autolinker.link(String(feature.properties['Tipe Museum']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Pengelola'] !== null ? autolinker.link(String(feature.properties['Pengelola']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Foto'] !== null ? autolinker.link(String(feature.properties['Foto']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Pengunjung'] !== null ? autolinker.link(String(feature.properties['Pengunjung']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Karyawan'] !== null ? autolinker.link(String(feature.properties['Karyawan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_TITIK_KOOORDINAT_2_0() {
+            return {
+                pane: 'pane_TITIK_KOOORDINAT_2',
+        rotationAngle: 0.0,
+        rotationOrigin: 'center center',
+        icon: L.icon({
+            iconUrl: 'markers/TITIK_KOOORDINAT_2.svg',
+            iconSize: [18.24, 18.24]
+        }),
+                interactive: true,
+            }
+        }
+        map.createPane('pane_TITIK_KOOORDINAT_2');
+        map.getPane('pane_TITIK_KOOORDINAT_2').style.zIndex = 402;
+        map.getPane('pane_TITIK_KOOORDINAT_2').style['mix-blend-mode'] = 'normal';
+        var layer_TITIK_KOOORDINAT_2 = new L.geoJson(json_TITIK_KOOORDINAT_2, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_TITIK_KOOORDINAT_2',
+            layerName: 'layer_TITIK_KOOORDINAT_2',
+            pane: 'pane_TITIK_KOOORDINAT_2',
+            onEachFeature: pop_TITIK_KOOORDINAT_2,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.marker(latlng, style_TITIK_KOOORDINAT_2_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_TITIK_KOOORDINAT_2);
+        map.addLayer(layer_TITIK_KOOORDINAT_2);
+        function pop_LIGHTNESS_MUSEUM_3(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_ID'] !== null ? autolinker.link(String(feature.properties['Museum_ID']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_kod'] !== null ? autolinker.link(String(feature.properties['Museum_kod']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_NAM'] !== null ? autolinker.link(String(feature.properties['Museum_NAM']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Pro'] !== null ? autolinker.link(String(feature.properties['Museum_Pro']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Kab'] !== null ? autolinker.link(String(feature.properties['Museum_Kab']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Ala'] !== null ? autolinker.link(String(feature.properties['Museum_Ala']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_LAT'] !== null ? autolinker.link(String(feature.properties['Museum_LAT']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_LON'] !== null ? autolinker.link(String(feature.properties['Museum_LON']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Jen'] !== null ? autolinker.link(String(feature.properties['Museum_Jen']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Tip'] !== null ? autolinker.link(String(feature.properties['Museum_Tip']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Pen'] !== null ? autolinker.link(String(feature.properties['Museum_Pen']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Fot'] !== null ? autolinker.link(String(feature.properties['Museum_Fot']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_P_1'] !== null ? autolinker.link(String(feature.properties['Museum_P_1']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Kar'] !== null ? autolinker.link(String(feature.properties['Museum_Kar']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_LIGHTNESS_MUSEUM_3_0(feature) {
+            if (feature.properties['Museum_P_1'] >= 1.000000 && feature.properties['Museum_P_1'] <= 300.000000 ) {
+                return {
+                pane: 'pane_LIGHTNESS_MUSEUM_3',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,255,255,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_P_1'] >= 300.000000 && feature.properties['Museum_P_1'] <= 800.000000 ) {
+                return {
+                pane: 'pane_LIGHTNESS_MUSEUM_3',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,204,204,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_P_1'] >= 800.000000 && feature.properties['Museum_P_1'] <= 2000.000000 ) {
+                return {
+                pane: 'pane_LIGHTNESS_MUSEUM_3',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,153,153,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_P_1'] >= 2000.000000 && feature.properties['Museum_P_1'] <= 15000.000000 ) {
+                return {
+                pane: 'pane_LIGHTNESS_MUSEUM_3',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,102,102,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_P_1'] >= 15000.000000 && feature.properties['Museum_P_1'] <= 300000.000000 ) {
+                return {
+                pane: 'pane_LIGHTNESS_MUSEUM_3',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,51,51,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_P_1'] >= 300000.000000 && feature.properties['Museum_P_1'] <= 6500000.000000 ) {
+                return {
+                pane: 'pane_LIGHTNESS_MUSEUM_3',
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(255,0,0,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_LIGHTNESS_MUSEUM_3');
+        map.getPane('pane_LIGHTNESS_MUSEUM_3').style.zIndex = 403;
+        map.getPane('pane_LIGHTNESS_MUSEUM_3').style['mix-blend-mode'] = 'normal';
+        var layer_LIGHTNESS_MUSEUM_3 = new L.geoJson(json_LIGHTNESS_MUSEUM_3, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_LIGHTNESS_MUSEUM_3',
+            layerName: 'layer_LIGHTNESS_MUSEUM_3',
+            pane: 'pane_LIGHTNESS_MUSEUM_3',
+            onEachFeature: pop_LIGHTNESS_MUSEUM_3,
+            style: style_LIGHTNESS_MUSEUM_3_0,
+        });
+        bounds_group.addLayer(layer_LIGHTNESS_MUSEUM_3);
+        map.addLayer(layer_LIGHTNESS_MUSEUM_3);
+        function pop_centroid_4(feature, layer) {
+            var popupContent = '<table>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_ID'] !== null ? autolinker.link(String(feature.properties['Museum_ID']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_kode'] !== null ? autolinker.link(String(feature.properties['Museum_kode']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td class="visible-with-data" id="Museum_NAMA ITEM DATA" colspan="2"><strong>Museum_NAMA ITEM DATA</strong><br />' + (feature.properties['Museum_NAMA ITEM DATA'] !== null ? autolinker.link(String(feature.properties['Museum_NAMA ITEM DATA']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Provinsi'] !== null ? autolinker.link(String(feature.properties['Museum_Provinsi']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Kabupaten'] !== null ? autolinker.link(String(feature.properties['Museum_Kabupaten']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Alamat'] !== null ? autolinker.link(String(feature.properties['Museum_Alamat']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_LATITUDE'] !== null ? autolinker.link(String(feature.properties['Museum_LATITUDE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_LONGITUDE'] !== null ? autolinker.link(String(feature.properties['Museum_LONGITUDE']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Jenis Museum'] !== null ? autolinker.link(String(feature.properties['Museum_Jenis Museum']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Tipe Museum'] !== null ? autolinker.link(String(feature.properties['Museum_Tipe Museum']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Pengelola'] !== null ? autolinker.link(String(feature.properties['Museum_Pengelola']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Foto'] !== null ? autolinker.link(String(feature.properties['Museum_Foto']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Pengunjung'] !== null ? autolinker.link(String(feature.properties['Museum_Pengunjung']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                    <tr>\
+                        <td colspan="2">' + (feature.properties['Museum_Karyawan'] !== null ? autolinker.link(String(feature.properties['Museum_Karyawan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                    </tr>\
+                </table>';
+            var content = removeEmptyRowsFromPopupContent(popupContent, feature);
+			layer.on('popupopen', function(e) {
+				addClassToPopupIfMedia(content, e.popup);
+			});
+			layer.bindPopup(content, { maxHeight: 400 });
+        }
+
+        function style_centroid_4_0(feature) {
+            if (feature.properties['Museum_Pengunjung'] >= 1.000000 && feature.properties['Museum_Pengunjung'] <= 300.000000 ) {
+                return {
+                pane: 'pane_centroid_4',
+                radius: 2.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(41,228,37,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_Pengunjung'] >= 300.000000 && feature.properties['Museum_Pengunjung'] <= 800.000000 ) {
+                return {
+                pane: 'pane_centroid_4',
+                radius: 4.8,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(41,228,37,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_Pengunjung'] >= 800.000000 && feature.properties['Museum_Pengunjung'] <= 20000.000000 ) {
+                return {
+                pane: 'pane_centroid_4',
+                radius: 7.6,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(41,228,37,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_Pengunjung'] >= 20000.000000 && feature.properties['Museum_Pengunjung'] <= 15000.000000 ) {
+                return {
+                pane: 'pane_centroid_4',
+                radius: 10.4,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(41,228,37,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_Pengunjung'] >= 15000.000000 && feature.properties['Museum_Pengunjung'] <= 300000.000000 ) {
+                return {
+                pane: 'pane_centroid_4',
+                radius: 13.2,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(41,228,37,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Museum_Pengunjung'] >= 300000.000000 && feature.properties['Museum_Pengunjung'] <= 650000.000000 ) {
+                return {
+                pane: 'pane_centroid_4',
+                radius: 16.0,
+                opacity: 1,
+                color: 'rgba(35,35,35,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1,
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(41,228,37,1.0)',
+                interactive: true,
+            }
+            }
+        }
+        map.createPane('pane_centroid_4');
+        map.getPane('pane_centroid_4').style.zIndex = 404;
+        map.getPane('pane_centroid_4').style['mix-blend-mode'] = 'normal';
+        var layer_centroid_4 = new L.geoJson(json_centroid_4, {
+            attribution: '',
+            interactive: true,
+            dataVar: 'json_centroid_4',
+            layerName: 'layer_centroid_4',
+            pane: 'pane_centroid_4',
+            onEachFeature: pop_centroid_4,
+            pointToLayer: function (feature, latlng) {
+                var context = {
+                    feature: feature,
+                    variables: {}
+                };
+                return L.circleMarker(latlng, style_centroid_4_0(feature));
+            },
+        });
+        bounds_group.addLayer(layer_centroid_4);
+        map.addLayer(layer_centroid_4);
+        setBounds();
+        var i = 0;
+        layer_TITIK_KOOORDINAT_2.eachLayer(function(layer) {
+            var context = {
+                feature: layer.feature,
+                variables: {}
+            };
+            layer.bindTooltip((layer.feature.properties['NAMA ITEM DATA'] !== null?String('<div style="color: #323232; font-size: 10pt; font-family: \'Open Sans\', sans-serif;">' + layer.feature.properties['NAMA ITEM DATA']) + '</div>':''), {permanent: true, offset: [-0, -16], className: 'css_TITIK_KOOORDINAT_2'});
+            labels.push(layer);
+            totalMarkers += 1;
+              layer.added = true;
+              addLabel(layer, i);
+              i++;
+        });
+        resetLabels([layer_TITIK_KOOORDINAT_2,layer_LIGHTNESS_MUSEUM_3]);
+        map.on("zoomend", function(){
+            resetLabels([layer_TITIK_KOOORDINAT_2,layer_LIGHTNESS_MUSEUM_3]);
+        });
+        map.on("layeradd", function(){
+            resetLabels([layer_TITIK_KOOORDINAT_2,layer_LIGHTNESS_MUSEUM_3]);
+        });
+        map.on("layerremove", function(){
+            resetLabels([layer_TITIK_KOOORDINAT_2,layer_LIGHTNESS_MUSEUM_3]);
+        });
+        </script>
+    </body>
+</html>
