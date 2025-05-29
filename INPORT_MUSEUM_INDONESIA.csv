@@ -1,0 +1,337 @@
+﻿fid,ID,kode,NAMA ITEM DATA,Provinsi,Kabupaten,Alamat,LATITUDE,LONGITUDE,Jenis Museum,Tipe Museum,Pengelola,Foto,Pengunjung
+1,1,1,Museum Keprajuritan Indonesia,jakarta,jakarta timur," Jl. Raya Taman Mini, Ceger, Kec. Cipayung, Kota Jakarta Timur",-6.305699242,106.8962541,Museum Khusus,Tipe B,Badan Pelaksana Pengelola Taman Mini Indonesia Indah,lihat foto,17000
+2,2,2,Museum Layang-layang Indonesia,jakarta,jakarta selatan,"Jl. H. Kamang No.38 8, RT.8/RW.10, Pd. Labu, Kec. Cilandak",-6.306903489,106.7927276,Museum Khusus,Tipe C,Museum Layang-Layang,lihat foto,798
+3,3,3,Museum Listrik dan Energi Baru,jakarta,jakarta timur,"Jl. Kramat Jati, Pinang Ranti, Kec. Cipayung, Kota Jakarta Timur",-6.303097058,106.9054561,Museum khusus,Tipe A,PT.PLN (PERSERO) PUSAT-PUSDIKLAT,lihat foto,800
+4,4,4,Museum Macan (Modern and Contemporary Art in Nusantara),jakarta,Jakarta Barat,"Jl. Panjang No.5, Kb. Jeruk, Kec. Kb. Jeruk, Kota Jakarta Barat",-6.190936731,106.7688441,Museum Khusus,Tipe A,Yayasan Museum MACAN,lihat foto,400
+5,5,5,Museum Mandiri,Jakarta,Jakarta Barat,"Jl. Lapangan Stasiun No.1, RT.3/RW.6, Pinangsia, Kec. Taman Sari",-6.137343243,106.81545,Museum Khusus,Tipe A,Bank Mandiri,lihat foto,7500
+6,6,6,Museum MH. Thamrin,jakarta,kota jakarta Pusat,"Jl. Kenari 2 No.15, RW.4, Kenari",-6.193419905,106.8506003,Museum Khusus,Tipe C,Unit Pengelola Museum Kesejahteraan Jakarta,lihat foto,3000
+7,7,7,Museum Nasional Indonesia,jakarta,kota jakarta Pusat,"Jl. Medan Merdeka Barat No.12, Gambir",-6.175506108,106.8245942,Museum Umum,Tipe A,UPT Museum Nasional,lihat foto,12000
+8,8,8,Bayt Al-Qur’an dan Museum Istiqlal,Jakarta,Jakarta Timur,Jl.RayaTaman Mini Indonesia Indah Pintu 1,-6.302470282,106.8884634,Museum Khusus,Tipe C,"Lajnah Pentashihan Mushaf Al-Qur'an,Badan Litbang dan Diklat Kementrian Agama",lihat foto,1200
+9,9,9,Galeri Foto Jurnalistik Antara, Jakarta,Jakarta Pusat,"Jl.Antara N0.59,Pasar Baru,Jakarta Pusat",-6.165325492,106.8344265,Museum Khusus,Tipe B,Perum Lembaga Kantor Berita Nasional ,lihat foto,3000
+10,10,10,Galeri Nasional Indonesia,Jakarta,kota Jakarta Pusat,"Jl.Medan Merdeka Timur No.14, Gambir, Jakarta Pusat.",-6.177737544,106.8336299,Museum Khusus,Tipe A,Kementrian Pendidikan dan Kebudayaan,lihat foto,5120
+11,11,11,Monumen Pancasila Sakti,Jakarta,Jakarta Timur,"Jl. Raya Pondok Gede, Lubang Buaya, Kec Cipayung",-6.28489235,106.9048104,Museum Khusus,Tipe B,Pusat Sejarah Tentara Nasional Indonesia,lihat foto,3120
+12,12,12,Museum Anatomi Universitas Katolik (Unika) Atmajaya,Jakarta,Jakarta Selatan,"Jl. Pluit Selatan Raya No.19, RT.16/RW.8, Penjaringan, Kec. Penjaringan",-6.124924339,106.794175,Museum Khusus,Tipe C,Fakultas Kedokteran Universitas Katolik Atma Jaya,lihat foto,6000
+13,13,13,Museum Asmat TMII,Jakarta,Jakarta Timur,"Taman Mini Indonesia Indah (TMII), Jakarta Timur, DKI Jakarta 13560",-6.305456471,106.8943518,Museum Khusus,Tipe B,Yayasan Taman Mini Indonesia Indah,lihat foto,500
+14,14,14,Museum Bahari,Jakarta,jakarta utara,"Jl. Pasar Ikan No.1, Penjaringan",-6.126101895,106.8068733,Museum Khusus,Tipe A,Dinas Kebudayaan Provinsi DKI Jakarta,lihat foto,400
+15,15,15,Museum Bank Indonesia,Jakarta,Jakarta Barat,"Jl.Besar Utara No. 3, Pinangsia, Kecamatan Taman Sari,",-6.136466559,106.8106243,Museum Khusus,Tipe A,Direktorat Komunikasi Indonesia,lihat foto,13000
+16,16,16,Museum Basoeki Abdullah ,Jakarta,Jakarta Selatan,JL.Keuangan Raya No. 19 Cilandak Barat,-6.288929702,106.7949099,Museum Khusus,Tipe A,UPT Museum Basoeki Abdullah,lihat foto,12000
+17,17,17,Museum Benda-Benda Alkitab Yerushalayim,Jakarta,jakarta utara,"JL. Raya Jl. Sengon No.54, RT.1/RW.022, Klp. Gading Bar., Kec. Klp. Gading",-6.14158422,106.9022758,Museum Khusus,Belum Memenuhi Standar,Kementerian Pendidikan dan Kebudayaan,lihat foto,300
+18,18,18,Museum BNI 1946,Jakarta,Jakarta Barat,"Jl. Lada No.27, RT.4/RW.6, Pinangsia, Kec. Taman Sari, Kota Jakarta Barat",-6.1359522,106.8155098,Museum Khusus,Belom di standarisasi,PT Bank Negara Indonesia,lihat foto,11000
+19,19,19,Museum Ciputra Artpreneur,Jakarta,Jakarta Selatan,"Jl. Prof. DR. Satrio No.Kav. 3-5 Level 11, Kuningan, Karet Kuningan",-6.223872909,106.8228128,Museum Khusus,Belum  Memenuhi standar,Citra Art Management,lihat foto,10000
+20,20,20,Museum Dharma Bhakti Kostrad,Jakarta,Jakarta Timur,"Jl. Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870",-6.316968784,106.9137891,Museum Khusus,Tipe B,Komando Strategis Angkatan Darat,lihat foto,4000
+21,21,21,Museum di Tengah Kebun,Jakarta,Jakarta Selatan,"Jl. Kemang Timur No.66 7, RT.7/RW.3, Bangka, Kec. Mampang Prpt",-6.266873117,106.8259953,Museum Swasta,Belum Memenuhi Standar,Mirza Djalil,lihat foto,20000
+22,22,22,Museum DPR RI,Jakarta,Jakarta Pusat," Jl. Gatot Subroto Lantai 2, Gelora, Kecamatan Tanah Abang",-6.210167337,106.8003328,Museum Khusus,Tipe B,Sekretariat Jenderal Dewan Perwakilan Rakyat Republik Indonesia,lihat foto,16000
+23,23,23,Museum Fauna Indonesia “Komodo” dan Taman Reptilia,Jakarta,Jakarta Timur,"Jl. Taman Mini Indonesia Indah, RW.2, Ceger, Kec. Cipayung",-6.303598906,106.9016491,Museum Khusus,Tipe C,Yayasan Harapan Kita,lihat foto,32000
+24,24,24,Museum Graha Widya Patra (Minyak dan Gas Bumi),Jakarta,Jakarta Timur,"Jl. Taman Mini Indonesia Indah, Bambu Apus, Kec. Cipayung",-6.302075408,106.9054797,Museum Khusus,Tipe B,PT Pertamina,lihat foto,800
+25,25,25,Museum Hakka Indonesia,Jakarta,Jakarta Timur," Jl.Raya Taman Mini, Ceger, Kecamatan Cipayung ",-6.305094859,106.904697,Museum Khusus,Tipe B,Yayasan Hakka Indonesia Sejahtera,lihat foto,400
+26,26,26,Museum Harry Darsono,Jakarta,Jakarta Selatan,"Jl. Cilandak Tengah Raya No.71, RT.2/RW.13, Cilandak Bar., Kec. CilandaK",-6.288785879,106.8007581,Museum Pribadi,Belum Memenuhi Standar,"Sir Dr. Harry Darsono, PhD,",lihat foto,12000
+27,27,27,Museum Indonesia,Jakarta,Jakarta Timur,"Jl. Taman Mini Indonesia Indah, Ceger, Kec. Cipayung",-6.300460132,106.8943625,Museum Khusus,Tipe B,PT Bhumi Visatanda Indonesia,lihat foto,25000
+28,28,28,Museum Jenderal Besar Dr. A.H. Nasution,Jakarta,kota Jakarta Pusat,"Jl. Teuku Umar No.40, RT.1/RW.1, Gondangdi, Kec. Menteng",-6.192950528,106.8332868,Museum Khusus,Tipe C,Dinas Sejarah TNI AD,lihat foto,45000
+29,29,29,Museum Joang 45 ,Jakarta,kota Jakarta Pusat,"Jl. Menteng Raya No.31, RT.01/RW.10 Kebon Sirih, Menteng,",-6.185082794,106.8390751,Museum Khusus,Tipe C,Unit Pengelola Museum Kesejahteraan Jakarta,lihat foto,1200
+30,30,30,Museum Katedral Jakarta,Jakarta,kota Jakarta Pusat,"Jl. Katedral, Ps. Baru, Kecamatan Sawah Besar",-6.168100562,106.8378044,Museum Khusus,Tipe B,Paroki Gereja Katedral Jakarta,lihat foto,3120
+31,31,31,Museum Kebangkitan Nasional,Jakarta,kota Jakarta Pusat,"Jl. Abdul Rachman Saleh No.26, Senen, Kec. Senen, Kota Jakarta Pusat",-6.177814946,106.8404626,Museum Khusus,Tipe A,Museum Kebangkitan Nasional,lihat foto,6000
+32,32,32,Museum Kehutanan “Ir. Djamaludin Suryohadikusumo,Jakarta,Jakarta Selatan,Jl.Gatot Subroto,-6.206594328,106.7991724,Museum Khusus,Tipe C,Kementrian Lingkungan Hidup dan Kehutanan,lihat foto,500
+33,33,33,Museum Olahraga Nasional,jakarta,kota jakarta timur,"Jl. Hankam Raya No.8, RT.1/RW.2, Ceger, Kec. Cipayung, Kota Jakarta Timur",-6.304085317,106.8893333,Museum Khusus,Tipe B,Kementrian Pemuda Dan Olahraga,lihat foto,400
+34,34,34, Museum Pemadam Kebakaran,jakarta,jakarta timur,"Jl. Komp. TMII Pintu 3, Lubang Buaya, Kec. Cipayung",-6.294476982,106.9360618,Museum Khusus,Tipe C,Dinas Penanggulangan dan Penyelamatan Provinsi DKI Jakarta,lihat foto,13000
+35,35,35, Museum Penerangan,jakarta,jakarta timur,Jl. Taman Mini Indonesia Indah,-6.299314613,106.8939319,Museum Khusus,Tipe A,Kementrian Komunikasi dan Informatika,lihat foto,12000
+36,36,36,Museum Perumusan Naskah Proklamasi,jakarta,kota Jakarta Pusat,"Jl. Imam Bonjol No.1, RT.9/RW.4, Menteng, Kec. Menteng",-6.19953172,106.8351548,Museum Khusus,Tipe B,"Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia",lihat foto,300
+37,37,37,Museum Polri,jakarta,jakarta selatan,"Jl. Trunojoyo No.3, RT.5/RW.2, Selong, Kec. Kby. Baru",-6.23929838,106.8031497,Museum Khusus,Tipe C,Museum Polisi Republik Indonesia,lihat foto,11000
+38,38,38,Museum Prangko,jakarta,jakarta timur,"Jl.Taman Mini Indonesia Indah, Jalan Taman Mini Indonesia Indah",-6.303970814,106.9022768,Museum Khusus,Tipe C,PT.Pos Indonesia,lihat foto,10000
+39,39,39,Museum Prasasti Jakarta,jakarta,kota jakarta Pusat,"Jl. Tanah Abang I No.1, RT.11/RW.8, Petojo Sel., Kecamatan Gambir",-6.171840101,106.8174245,Museum Khusus,Tipe C,"Unit Pengelola Museum Seni, Dinas Kebudayaan Provinsi DKI Jakarta",lihat foto,32000
+40,40,40,Museum Purna Bhakti Pertiwi,jakarta,jakarta timur, Jl. Taman Mini Indonesia Indah,-6.299706257,106.8898746,Museum Khusus,Tipe C,Yayasan Harapan Kita,lihat foto,19000
+41,41,41,Museum Pusaka,jakarta,jakarta timur,"Jl. Taman, Mini, Kec. Cipayung, Kota Jakarta Timur3",-6.30509674,106.8966639,Museum Khusus,Tipe C,"PT.Taman Wisata Candi Brobudur,Prambanan dan Ratu Boko",lihat foto,22000
+42,42,42,Museum Sasmitaloka Pahlawan Revolusi Jenderal TNI A. Yani,jakarta,kota jakarta Pusat,"Jl. Lembang No.67, RT.11/RW.7, Menteng",-6.20395269,106.8379934,Museum Khusus,Tipe C,TNI Angkatan Darat (TNI AD),lihat foto,50000
+43,43,43,Museum Satriamandala,jakarta,jakarta selatan,"Jl. Gatot Subroto No.14, RT.6/RW.1",-6.231583289,106.8202528,Museum Khusus,Belom di standarisasi,Museum Satriamandala,lihat foto,3000
+44,44,44,Museum Sejarah Jakarta,jakarta,Jakarta Barat,"JL.Taman Fatahillah No.1, Pinangsia",-6.134474617,106.8104247,Museum Umum,Tipe A,Dinas Kebudayaan Provinsi DKI Jakarta,lihat foto,12000
+45,45,45,Museum Seni Rupa dan Keramik,jakarta,Jakarta Barat,"Jl. Pos Kota No.2 9, RT.9/RW.7, Pinangsia",-6.133449077,106.8170411,Museum Khusus,Tipe A,Unit Penggelola Museum Seni,lihat foto,2000
+46,46,46,Museum Sumpah Pemuda,jakarta,kota jakarta Pusat,"Jl. Kramat Raya No.106, RT.2/RW.9, Kwitang",-6.182814824,106.8459689,Museum Khusus,Tipe A,"Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi Republik Indonesia (Kemendikbudristek RI)",lihat foto,3000
+47,47,47,Museum Tekstil Jakarta,jakarta,Jakarta Barat,"Jl. K.S. Tubun, Kota Bambu Sel., Kec. Palmerah",-6.187451416,106.8148009,Museum Khusus,Tipe A,Dinas Kebudayaan Provinsi DKI Jakarta,lihat foto,5120
+48,48,48,Museum Timor Timur,jakarta,jakarta timur,Jl.Taman Mini Indonesia Indah,-6.30314139,106.9020584,museum khusus,Tipe C,Pemerintah Indonesia,lihat foto,3120
+49,49,49,Museum Tragedi 12 Mei 1998 Universitas Trisakti,jakarta,Kota Jakarta Barat,"Jl.Tomang, Kec. Grogol petamburan",-6.167999059,106.7909749,Museum Khusus,Tipe C,"Universitas Trisakti,",lihat foto,6000
+50,50,50,Museum Transportasi,jakarta,jakarta timur,Jl. Taman Mini I,-6.30410184,106.9008619,Museum Khusus,Tipe B,Kementrian Perhubungan,lihat foto,1200
+51,51,51,Museum Wayang,jakarta,Jakarta Barat,"Jl.Pintu Besar Utara No.27 Pinangsia, RT.3/RW.6, Kota Tua, Kec. Taman Sari",-6.134029708,106.816788,Museum Khusus,Tipe B,"Unit Pengelola Museum Seni, Dinas ",lihat foto,400
+52,52,52,Museum Batik Indonesia,jakarta,jakarta timur,Taman Mini Indonesia Indah,-6.305445187,106.8969545,Museum Khusus,Belom di standarisasi,Direktorat Jendral Kebudayaan,lihat foto,15000
+53,53,53,Museum Betawi,jakarta,Jakarta Selatan,"Jl. Situ Babakan No.47, RT.13/RW.8",-6.338297998,106.8259937,Museum khusus,Belom di standarisasi,Unit Pengelola Kawasan Perkampungan Budaya Betawi,lihat foto,14000
+54,54,54,Museum Benteng Heritage,Banten,Tangerang,"Jl.cilame No 20,pasar lama Tangerang ,Banten",-6.177748246,106.6309559,Museum Khusus,Belom di standarisasi,Udaya Halim,lihat foto,300
+55,55,55,Museum Multatuli,Banten,kabupaten lebak,Jl.Alun-alun Timur No.8,-6.360434515,106.2473369,Museum Umum,Tipe C,"Dinas Kebudayaan Dan Pariwisata Kabupaten Lebak,UPT Museum Multatuli",lihat foto,11000
+56,56,56,Museum Negeri Provinsi Banten,Banten,Kota Serang,Jl. Brigjen KH Samun No. 5,-6.03814023,106.1584456,Museum Umum,Belum Memenuhi Standar,Yayasan Museum Semparaja Bima,lihat foto,1000
+57,57,57,Museum Sepeda Pramuka Keliling Dunia,Banten,Kota Serang,"Jl.Raya Serang – Pandeglang Km. 5, Karundang",-6.152840022,106.1605051,Museum Khusus,Tipe C,Yayasan Syariful Ichsan,lihat foto,40000
+58,58,58,Museum Situs Kepurbakalaan Banten Lama,Banten,Kota Serang,Jl.Banten lama,-6.0361046,106.1560885,Museum Umum,Tipe C,Yayasan Museum Semparaja Bima,lihat foto,17000
+59,59,59,Museum Tari dan Musik Nusantara,Banten,Kota Tangerang Selatan,Jl.Elang Raya No.1,-6.29929,106.733947,Museum Khusus,Belum Memenuhi Standar,Puspo Budoyo,lihat foto,17000
+60,60,60,Museum Universitas Pelita Harapan,Banten,Kota Tangerang ,"Jl.Boulevard Diponegoro Blok C,Dua,Kec.Dua",-6.227488953,106.6113522,Museum Khusus,Tipe C,Universitas Pelita Harapan,lihat foto,798
+61,61,61,Monumen & Museum PETA,jawa barat,Kota Bogor,"Jl. Jend. Sudirman No.35, RT.01/RW.05, Pabaton",-6.584938616,106.7967471,Museum Khusus,Tipe C,Dinas Sejarah TNI Angkatan Darat,lihat foto,800
+62,62,62,Monumen Perjuangan Rakyat Jawa Barat,jawa barat,Kota Bandung,"Jl. Dipati Ukur No.48, Lebakgede",-6.892921438,107.6229716,Museum Khusus,Tipe C,Dinas Pariwisata Dan Kebudayaan Provinsi Jawa Barat,lihat foto,400
+63,63,63,Museum Amerta Dirgantara Mandala Lanud Suryadarma,jawa barat,Subang,"Kawasan Pangkalan TNI Angkatan Udara Suryadarma, Kalijati, Subang, Jawa Barat",-6.535503153,107.6671398,Museum Khusus,Tipe C,Dinas Penerangan TNI Angkatan Udara,lihat foto,7500
+64,64,64,Museum Barli,jawa barat,Kota Bandung,"Jl. Prof. Dr. Sutami No. 91, Sukarasa, Kecamatan Sukasari, Kota Bandung, Jawa Barat 40152",-6.877436476,107.5904284,Museum Khusus,Tipe c,Barli Sasmitawinata,lihat foto,3000
+65,65,65,Museum Bio Farma,jawa barat,Kota Bandung,Jl.Pasteur No.28,-6.899248112,107.6001491,Museum Khusus,Belom Memenuhi Standar,Corporate Cominications Biofarma,lihat foto,12000
+66,66,66,Museum Daerah Kabupaten Subang,jawa barat,Subang,Jl. Ade Irma Suryani Nasution No. 2,-6.566952819,107.7835699,Museum Umum,Tipe C,Pemerintah Daerah Kabupaten Subang melalui Dinas Pendidikan dan Kebudayaan,lihat foto,1200
+67,67,67,Museum Galuh Pakuan,jawa barat,Ciamis,Jl. K.H. Ahmad Dahlan No. 53,-7.332612976,108.3505241,Museum Khusus,Tipe C,Ilham Purwa,lihat foto,3000
+68,68,68,Museum Gedung Perundingan Linggarjati,jawa barat,Kuningan,"Desa Linggarjati, Kecamatan Cilimus, Kabupaten Kuningan, Jawa Barat",-6.88106262,108.4756491,Museum Khusus,Tipe C,Dinas Pendidikan Dan Kebudayaan Kuningan,lihat foto,5120
+69,69,69,Museum Gedung Pusaka Keraton Kanoman,jawa barat,Kota Cirebon,"Jl.Merdeka No. 28, Kelurahan Lemahwungkuk, Kota Cirebon, Jawa Barat",-6.722783027,108.5685859,Museum Khusus,Tipe C,P.R.M. Hamzah,lihat foto,3120
+70,70,70,Museum Gedung Sate,jawa barat,Kota Bandung,Jl.Diponegoro No.22,-6.901572792,107.6199415,Museum Khusus,Tipe C,Biro Umum & Biro Humas & Keprotokolan,lihat foto,6000
+71,71,71,Museum Geologi Bandung,jawa barat,Kota Bandung,Jl.Diponegoro No.57,-6.899906715,107.6230003,Museum Khusus,Tipe A,Unit Pelaksaan Teknis Museum Geologi,lihat foto,500
+72,72,72, Museum Kepresidenan Republik Indonesia “Balai Kirti”,jawa barat,Kota Bogor,Jl. Ir. H. Juanda No.1,-6.598296,106.7951098,Museum Khusus,Tipe B,"Kementrian Pendidikan ,Kebudayaan,Riset dan Teknologi",lihat foto,400
+73,73,73,Museum Keraton Kacirebonan,jawa barat,Kota Cirebon,Jalan Kasepuhan No. 43,-6.724441206,108.5662572,Museum Khusus,Tipe A,Dinas Kebudayaan dan Pariwisata Kota Cirebon,lihat foto,13000
+74,74,74,Museum Konferensi Asia Afrika,jawa barat,Kota Bandung,JL. Asia Afrika No. 65,-6.920257139,107.6115165,Museum Khusus,Tipe A,Direktorat Jenderal Informasi dan Diplomasi Publik Kementerian Luar Negeri Republik Indonesia,lihat foto,12000
+75,75,75,Museum Mandala Wangsit Siliwangi,jawa barat,Kota Bandung,"JL.Mayor Lembong No. 38,",-6.917059224,107.6104688,Museum Khusus,Belom Memenuhi Standar,Tentara Nasional Indonesia (TNI) melalui Komando Daerah Militer (Kodam) III/Siliwangi,lihat foto,300
+76,76,76,Museum Nasional Sejarah Alam Indonesia,jawa barat,Kota Bogor,Jl.IR.H.Juanda No. 22-24,-6.597969661,106.795723,Museum Khusus,Tipe B,Pusat Penelitian Biologi - LIPI,lihat foto,11000
+77,77,77,Museum Negeri Provinsi Jawa Barat Sri Baduga,jawa barat,Kota Bandung,JL. BKR No. 185,-6.93748012,107.6041145,Museum Umum,Tipe A,Dinas Pariwisata dan Kebudayaan Provinsi Jawa Barat,lihat foto,10000
+78,78,78,Museum Nyamuk Loka Litbang P2B2 Ciamis,jawa barat,Pangandaran,"Jl. Raya Pangandaran Km 3, Desa Babakan",-7.672965339,108.6800649,Museum Khusus,Belom Memenuhi Standar,Dinas Kesehatan Kabupaten Ciamis dan dikelola oleh Unit Pengelola Teknis Museum Nyamuk Litbang P2B2 Ciamis,lihat foto,4000
+79,79,79,Museum Palagan Perjuangan 1945 Bojongkokosan,jawa barat,Sukabumi,Jalan Siliwangi No. 75,-6.826018266,106.7598937,Museum Khusus,Tipe B,"kepada Dinas Pariwisata, Kebudayaan, Pemuda, dan Olahraga Kabupaten Sukabumi",lihat foto,20000
+80,80,80,Museum Pangeran Cakrabuana,jawa barat,Cirebon,Jalan Sunan Drajat No. 9,-6.762325147,108.4782472,Museum Khusus,Belom di standarisasi,"Dinas Kebudayaan, Pariwisata, Pemuda, dan Olahraga Kabupaten Cirebon.",lihat foto,16000
+81,81,81,Museum Pendidikan Nasional Universitas Pendidikan Indonesia (Mupenas),jawa barat,Kota Bandung,Jalan Dr. Setiabudhi No. 229,-6.859737829,107.5947966,Museum Khusus,Tipe A,"Prof. Dr. Leli Yulifar, M.Pd.",lihat foto,32000
+82,82,82,Museum Perbendaharaan,jawa barat,Kota Bandung,Jalan Diponegoro No. 59,-6.900516624,107.6237428,Museum Khusus,Belom di standarisasi,Direktorat Jenderal Perbendaharaan,lihat foto,800
+83,83,83,Museum Perjuangan Bogor,jawa barat,Kota Bogor,Jalan Merdeka No. 56,-6.592612353,106.7912564,Museum Khusus,Tipe C,Dinas Pariwisata dan Kebudayaan Kota Bogor,lihat foto,400
+84,84,84,Museum Pos Indonesia,jawa barat,Kota Bandung,Jl. Cilaki No.73,-6.901294621,107.6230055,Museum Khusus,Belom Memenuhi Standar,PT.Pos Indonesia,lihat foto,12000
+85,85,85,Museum Prabu Geusan Ulun,jawa barat,Sumedang,Jl.Prabu Geusan Ulun No. 40,-6.860815689,107.9214685,Museum Khusus,Tipe C,Yayasan Pangeran Sumedang,lihat foto,25000
+86,86,86,Museum Pusaka Keraton Kasepuhan,jawa barat,Kota Cirebon,Jalan Kasepuhan No. 43,-6.71191994,108.5665165,Museum Khusus,Tipe A,Keraton Kasepuhan,lihat foto,45000
+87,87,87,Museum Rumah Sejarah Kalijati,jawa barat,Subang,"Komplek Garuda E25 Lanud Suryadarma, Jalan Kalijati Barat",-6.523886884,107.661969,Museum Khusus,Tipe,Dinas Pendidikan dan Kebudayaan Kabupaten Subang,lihat foto,1200
+88,88,88,Museum Sejarah Sunda Prabu Siliwangi,jawa barat,Sukabumi,Jl. Merbabu Perum Gading Kencana Asri ,-6.906530232,106.9118587,Museum Umum,Tipe C," RH. Erwin Hendarwin, SE., MBA., MM., Ph.D",lihat foto,3120
+89,89,89,"Museum Situs Cagar Budaya Batujaya,",jawa barat,Karawang,"Jalan Candi Jiwa, Dusun Sumurjaya, RT.11/RW.04",-6.056526735,107.1583194,Museum Khusus,Tipe A,Dinas Kebudayaan dan Pariwisata Provinsi Jawa Barat,lihat foto,6000
+90,90,90,Museum Talaga Manggung,jawa barat,Majalengka,Jl. Talaga Majalengka No. 1,-6.984981155,108.3115134,Museum Khusus,Tipe A,Yayasan Talaga Manggung,lihat foto,500
+91,91,91,Museum Taman Purbakala,jawa barat,Kuningan,Jl. Museum Taman Purbakala,-6.962369998,108.4703233,Museum Khusus,Tipe A,Dinas Kebudayaan dan Pariwisata Kabupaten Kuningan,lihat foto,400
+92,92,92,Museum Tanah dan Pertanian,jawa barat,Kota Bogor,"Jl. Ir. H. Juanda No. 98,",-6.60349004,106.798726,Museum Khusus,Tioe A,Kementerian Pertanian Republik Indonesia,lihat foto,13000
+93,93,93,Museum Universitas Galuh,jawa barat,Ciamis,Jl. R. E. Martadinata No. 150,-7.313932736,108.3563231,Museum Umum,Tipe A,"Program Studi Sejarah, Fakultas Keguruan dan Ilmu Pendidikan",lihat foto,12000
+94,94,94,Museum Zoologi Bogor,jawa barat,Kota Bogor,Jl. Ir. H. Juanda No. 9,-6.602718156,106.8000695,Museum Khusus,Tipe A,Badan Riset dan Inovasi Nasional,lihat foto,300
+95,95,95,Museum Kereta Api Ambarawa,jawa Tengah,Semarang,"Jl. Stasiun No.1, Panjang Kidul, Panjang",-7.264469123,110.405586,Museum Khusus,Tipe A,KAI Wisata,lihat foto,11000
+96,96,96,Monumen Pers Nasional,jawa Tengah,Kota Surakarta,Jl. Gajahmada No.59,-7.564250705,110.8154273,Museum khusus,Tipe B,Kementerian Komunikasi dan Informatika Republik Indonesia,lihat foto,10000
+97,97,97,Museum Rekor Dunia Indonesia,jawa Tengah,Kota Semarang,Jl. Perintis Kemerdekaan No.275,-6.959602028,110.7261084,Museum Khusus,Tipe A,MURI – Museum Rekor Dunia Indonesia,lihat foto,32000
+98,98,98,Museum Bank Rakyat Indonesia,jawa Tengah,Banyumas,Jl. Jend. Sudirman No.57,-7.423747937,109.2260338,museum khusus,Tipe A,Sekretaris Perusahaan BRI,lihat foto,19000
+99,99,99,Museum Batik Pekalongan,jawa Tengah,Pekalongan,Jl. Jetayu No.3,-6.877916984,109.6787811,Museum Khusus,Tipe B,Unit Pelaksana Teknis Daerah (UPTD) Museum Batik,lihat foto,22000
+100,100,100,Museum BPK RI,jawa Tengah,Kota Magelang,Jl. Pangeran Diponegoro No.1,-7.473976891,110.2174291,Museum Khusus,Tipe A,Unit Pelaksana Teknis Museum BPK,lihat foto,50000
+101,101,101,Museum Bumiputera 1912,jawa Tengah,Kota Magelang,Jl. Ahmad Yani Jl. Poncol No.21,-7.472357642,110.2178908,Museum Khusus,Tipe A,AJB Bumiputera 1912,lihat foto,3000
+102,102,102,Museum OHD (Oei Hong Djien),jawa Tengah,Kota Magelang,Jl. Jenggolo No.14,-7.48116113,110.2198905,Museum Khusus,Tipe A,Dr. Oei Hong Djien,lihat foto,12000
+103,103,103,Museum Glagah Wangi,jawa Tengah,Demak,Jalan Sultan Fatah No. 53,-6.89590993,110.6367637,Museum Khusus,Tipe A,Unit Pelaksana Teknis Daerah,lihat foto,2000
+104,104,104,"Museum, Guesthouse & Creative Space Nyah Lasem",jawa Tengah,Rembang,"Gang Karangturi V No. 2, Desa Karangturi,",-6.700849938,111.4477988,Museum Khusus,Tipe A,A. Soesantio dan dikelola oleh Yayasan Lasem Heritage,lihat foto,3000
+105,105,105,Museum H. Widayat,jawa Tengah,Magelang,Jl. Soekarno Hatta No.32,-7.600051674,110.2242912,Museum Khusus,Tipe A,PT Haji Widayat,lihat foto,5120
+106,106,106,Museum Isdiman,jawa Tengah,Semarang,"Jl. Panjang Lor, Panjang, Kec. Ambarawa, Kabupaten Semarang, Jawa Tengah 50614",-7.25985245,110.4027218,Museum Khusus,Tipe A,Unit Pelaksana Teknis Daerah,lihat foto,3120
+107,107,107,Museum Jamu Jago,jawa Tengah,Kota Semarang,Jl. Dr. Setiabudi No.179,-7.064121348,110.3999722,Museum Khusus,Tipe A,Jaya Suprana,lihat foto,6000
+108,108,108,Museum Ranggawarsita,jawa Tengah,Kota Semarang,Jalan Abdulrahman Saleh No. 1,-6.985239058,110.3850212,Museum Umum,Tipe A,Pemerintah Provinsi Jawa Tengah,lihat foto,1200
+109,109,109,Museum Kailasa,jawa Tengah,Banjarnegara,"Karangsari, Dieng Kulon, Kecamatan Batur, Kabupaten Banjarnegara",-7.208266488,109.9058213,Museum Umum,Tipe A,Pemerintah Kabupaten Banjarnegara,lihat foto,400
+110,110,110,Museum Kapal Samudra Raksa,jawa Tengah,Magelang,"Jl. Badrawati, Kw. Candi Borobudur",-7.604505195,110.2039087,Museum Khusus,Tipe A,"PT Taman Wisata Candi Borobudur, Prambanan & Ratu Boko",lihat foto,15000
+111,111,111,Museum Karmawibangga Taman Wisata Candi Borobudur,jawa Tengah,Magelang,"Jl. Badrawati, Kw. Candi Borobudur",-7.60394932,110.2043343,Museum Khusus,Tipe A,"PT Taman Wisata Candi Borobudur,",lihat foto,14000
+112,112,112,Museum Karst Indonesia,jawa Tengah,Wonogiri,"Desa Gebangharjo, Kecamatan Pracimantoro, Kabupaten Wonogiri, Jawa Tengah",-8.041325389,110.7817752,Museum Khusus,Tipe A,Pemerintah Kabupaten Wonogiri,lihat foto,300
+113,113,113,Museum Keris Nusantara,jawa Tengah,Kota Surakarta,Jalan Bhayangkara No. 2,-7.568393078,110.8123957,Museum Khusus,Tipe A,Dinas Kebudayaan Kota Surakarta,lihat foto,11000
+114,114,114,Museum Kretek,jawa Tengah,Kudus,Jalan Getas Pejaten No. 155,-6.826568543,110.8391244,Museum Khusus,Tipe A,Dinas Kebudayaan dan Pariwisata Kabupaten Kudus,lihat foto,1000
+115,115,115,Museum Mahameru Blora,jawa Tengah,Blora,"Jalan Reksodiputro, Kompleks Taman Tirtonadi",-6.974100502,111.4181414,Museum Khusus,Tipe A,Yayasan Mahameru,lihat foto,40000
+116,116,116,Museum Manusia Purba Klaster,jawa Tengah,Sragen,"Kecamatan Kalijambe, Kabupaten Sragen",-7.44119203,110.8384722,Museum Khusus,Tipe A,Balai Pelestarian Situs Manusia Purba Sangiran,lihat foto,17000
+117,117,117,Museum Masjid Agung Demak,jawa Tengah,Demak,Jalan Sultan Patah No. 57,-6.894326678,110.6371137,Museum Khusus,Tipe A,Dinas Kebudayaan dan Pariwisata Kabupaten Demak,lihat foto,17000
+118,118,118,Museum Misi Muntilan,jawa Tengah,Magelang,Jl. Kartini No.3,-7.581503857,110.2935774,Museum Khusus,Tipe A,Keuskupan Agung Semarang,lihat foto,798
+119,119,119,Museum Panglima Besar Jenderal Sudirman,jawa Tengah,Banyumas,"Jl. Patimura No.240A, RW.1, Dusun II",-7.419594408,109.1967874,Museum Khusus,Tipe A,Pemerintah Kabupaten Banyumas,lihat foto,800
+120,120,120,Museum Perjuangan Mandala Bhakti,jawa Tengah,Kota Semarang,Jalan Mgr Soegijapranata No.1,-6.98457916,110.4098819,Museum Khusus,Tipe A ,"Kodam IV/Diponegoro,",lihat foto,400
+121,121,121,Museum Prof. Dr. R. Soegarda Poerbakawatja,jawa Tengah,Purbalingga,Jl. Purbalingga - Klampok No.142,-7.38828216,109.3621687,Museum Khusus,Tipe A,Dinas Pendidikan dan Kebudayaan Kabupaten Purbalingga,lihat foto,7500
+122,122,122,Museum R. Hamong Wardoyo,jawa Tengah,Boyolali,"Jl. Pandanaran No.19, ",-7.538765087,110.6173551,Museum Umum,Tipe A,Pemerintah Kabupaten Boyolali,lihat foto,3000
+123,123,123,Museum RA Kartini Jepara,jawa Tengah,Jepara,"Jl. Kartini, Panggang I",-6.588663282,110.6682883,Museum Umum,Tipe C,Dinas Pariwisata dan Kebudayaan Kabupaten Jepara,lihat foto,12000
+124,124,124,Museum R.A. Kartini Rembang,jawa Tengah,Rembang ,Jl. Gatot Subroto No.8,-6.707088439,111.3513255,Museum Khusus,Tipe C,Dinas Kebudayaan dan Pariwisata Kabupaten Rembang,lihat foto,1200
+125,125,125,Museum Radya Pustaka,jawa Tengah,Kota Surakarta,Jl. Slamet Riyadi No.275,-7.568313368,110.8153016,Museum Umum,Tipe C,Yayasan Paheman Radya Pustaka Surakarta,lihat foto,3000
+126,126,126,Museum Situs Purbakala Patiayam,jawa Tengah,Kudus,"Desa Terban, Kecamatan Jekulo, Kabupaten Kudus, Jawa Tengah",-6.793725898,110.9389302,Museum Khusus,Tipe C,Dinas Kebudayaan dan Pariwisata Kabupaten Kudus,lihat foto,5120
+127,127,127,Museum Soesilo Soedarman,jawa Tengah,Cilacap,"Desa Gentasari, Kecamatan Kroya, Kabupaten Cilacap, Jawa Tengah",-7.600291332,109.2124838,Museum Khusus,Tipe C,Yayasan Museum Soesilo Soedarman,lihat foto,3120
+128,128,128,Museum Taruna Abdul Djalil,jawa Tengah,Kota Magelang, Jl. Jend. Gatot Soebroto No.1,-7.500175774,110.2100402,Museum Khusus,Tipe C,Akademi Militer (Akmil),lihat foto,6000
+129,129,129,Museum Tosan Aji,jawa Tengah,Purwerojo,Jl. Mayjen Sutoyo No.10,-7.710890683,110.0103682,Museum Khusus,Tipe C,Pemerintah Kabupaten Purworejo,lihat foto,500
+130,130,130,Museum Uang Purbalingga,jawa Tengah,Purbalingga,"Jalan Raya Kutasari-Tobo, Dusun II",-7.35570738,109.33127,Museum Khusus,Tipe C,Pemerintah Daerah Kabupaten Purbalingga dan dikelola oleh Dinas Pariwisata dan Kebudayaan Kabupaten Purbalingga,lihat foto,400
+131,131,131,Museum Universitas Sebelas Maret (Museum UNS),jawa Tengah,Surakarta,Gedung R.Ng. Ranggawarsita,-7.556828872,110.8601103,Museum Khusus,Tipe C,UNS melalui Pusat Unggulan Iptek (PUI) Javanologi,lihat foto,13000
+132,132,132,Museum Usman Janatin,jawa Tengah,Purbalingga,"Jalan Letnan Kusni No. 77, Dusun 3",-7.402437093,109.3971299,Museum Khusus,Tipe C,Keluarga Usman Janatin,lihat foto,12000
+133,133,133,Museum Wayang dan Artefak Purbalingga,jawa Tengah,Purbalingga,"Jalan Raya Taman Reptil, Dusun II, Desa Kutasari",-7.356238685,109.3304234,Museum Khusus,Tipe C,Unit Pelaksana Teknis (UPT) PD Owabong,lihat foto,300
+134,134,134,Museum Wayang Banyumas,jawa Tengah,Banyumas,Jl. Budi Utomo No.1,-7.514612005,109.2948313,Museum Khusus,Tipe C,"Dinas Pemuda, Olahraga, Kebudayaan, dan Pariwisata",lihat foto,11000
+135,135,135,Tumurun Private Museum,jawa Tengah,Surakarta,"Jl. Kebangkitan Nasional No. 2/4,",-7.570289548,110.8167334,Museum Khusus,Tipe C,PT Sri Rejeki Isman,lihat foto,10000
+136,136,136,Monumen Yogya Kembali,D.I Yogyakarta,Siemen,"Jl. Ring Road Utara, Jongkang",-7.748782455,110.3724392,Museum Khusus,Tipe B,TNI Angkatan Udara,lihat foto,4000
+137,137,137,Museum Affandi,D.I Yogyakarta,Kabupaten Sleman,Jl. Laksda Adisucipto No.167,-7.782027879,110.3982019,Museum Khusus,Tipe B,Yayasan Affandi,lihat foto,20000
+138,138,138,Museum Bahari Yogyakarta,D.I Yogyakarta,Kabupaten Bantul,Jl. R. E. Martadinata No.69,-7.80094926,110.3489575,Museum Khusus,Belom Memenuhi Standar,Paguyuban Tri Sekar Lestari bekerja sama dengan Pangkalan TNI AL ,lihat foto,16000
+139,139,139,Museum Benteng Vredeburg,D.I Yogyakarta,Kota Yogyakarta,Jl. Margo Mulyo No.6,-7.799970706,110.367565,Museum Khusus,Tipe A,Museum Benteng Vredeburg Yogyakarta dikelola oleh Indonesian Heritage Agency ,lihat foto,32000
+140,140,140,Museum Biologi Fakultas Biologi Universitas Gadjah Mada,D.I Yogyakarta,Kota Yogyakarta,Jl. Sultan Agung No.22,-7.801533777,110.3746831,Museum Khusus,Tipe A,Fakultas Biologi UGM,lihat foto,800
+141,141,141,Museum Dewantara Kirti Griya,D.I Yogyakarta,Kota Yogyakarta,Jl. Taman Siswa No. 31,-7.805217633,110.3791744,Museum Khusus,Tipe A,"Majelis Luhur Persatuan Tamansiswa, dengan staf bidang pendidikan dan kebudayaan",lihat foto,400
+142,142,142,Museum Geoteknologi Mineral,D.I Yogyakarta,Kabupaten Sleman ,Jl. Babarsari No. 2 ,-7.781465831,110.4151354,Museum Khusus,Tipe A,"Fakultas Teknologi Mineral dan Energi UPN ""Veteran"" Yogyakarta",lihat foto,12000
+143,143,143,Museum Gumuk Pasir,D.I Yogyakarta,Kabupaten Bantul,"Depok, Parangtritis, Kec. Kretek, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55772",-8.009043329,110.3025855,Museum Khusus,Tipe A,"Badan Informasi Geospasial (BIG), Fakultas Geografi Universitas Gadjah Mada (UGM), dan Pemerintah Daerah Istimewa Yogyakarta.",lihat foto,25000
+144,144,144,Museum Gunungapi Merapi,D.I Yogyakarta,Kabupaten Sleman,Jl. Kaliurang No.Km. 22,-7.615748093,110.4246387,Museum Khusus,Tipe A,"UPTD Museum Gunungapi Merapi, di bawah Pemerintah Kabupaten Sleman dan Badan Geologi",lihat foto,45000
+145,145,145,Museum Kayu Wanagama,D.I Yogyakarta,Kabupaten Gunungkidul,"Hutan Wisata Wanagama, Desa Bunder, Playen, Gunungkidul, Yogyakarta",-7.893238313,110.5474759,Museum Khusus,Tipe A,Fakultas Kehutanan Universitas Gadjah Mada,lihat foto,1200
+146,146,146,Museum Kereta Kraton Yogyakarta,D.I Yogyakarta,Kota Yogyakarta,"Jl. Rotowijayan, Kadipaten",-7.8052863,110.3622895,Museum Khusus,Tipe A,Kesultanan Ngayogyakarta Hadiningrat,lihat foto,3120
+147,147,147,Museum Memorial Jenderal Besar HM Soeharto,D.I Yogyakarta,Kabupaten Bantul," Jl. Kemusuk Lor Jl. Nulis-Puluhan, ",-7.791062577,110.2807322,Museum Khusus,Tipe A,"Keluarga Besar Soeharto, melalui H. Probosutedjo",lihat foto,6000
+148,148,148,Museum Pergerakan Wanita Indonesia Mandala Bhakti Wanitatama,D.I Yogyakarta,Kabupaten Sleman, Jl. Laksda Adisucipto No.88,-7.783745313,110.3922369,Museum Khusus,Tipe A,Yayasan Hari Ibu,lihat foto,500
+149,149,149,Museum Monumen Pangeran Diponegoro Sasana Wiratama,D.I Yogyakarta,Kota Yogyakarta,Jl. HOS Cokroaminoto TR-III No.430,-7.786935475,110.3517362,Museum Khusus,Tipe A,Yayasan Sasana Wiratama,lihat foto,400
+150,150,150,Museum Pendidikan Indonesia,D.I Yogyakarta,Kabupaten Sleman,Jalan Colombo No+H152. 1,-7.774522576,110.3877058,Museum Khusus,Tipe A,Universitas Negeri Yogyakarta,lihat foto,13000
+151,151,151,Museum Perjuangan Yogyakarta,D.I Yogyakarta,Kota Yogyakarta,Jl. Kolonel Sugiyono No.24,-7.816255426,110.3720655,Museum Khusus,Tipe A ,Dinas Kebudayaan Daerah Istimewa Yogyakarta,lihat foto,12000
+152,152,152,Museum Pusat TNI AD Dharma Wiratama,D.I Yogyakarta,Kota Yogyakarta,Jl. Jend. Sudirman No.75,-7.782711392,110.3759682,Museum Khusus,Tipe A,Tentara Nasional Indonesia Angkatan Darat,lihat foto,300
+153,153,153,Museum Dr. Yap Prawirohusodo,D.I Yogyakarta,Kota Yogyakarta,Jl. Cik Di Tiro No.5,-7.779939651,110.3747397,Museum Khusus,Tipe A,Dinas Kebudayaan Kota Yogyakarta,lihat foto,11000
+154,154,154,Museum Sandi,D.I Yogyakarta,Kota Yogyakarta,Jl. Faridan M Noto No.21,-7.783917102,110.374073,Museum Khusus,Tipe A,Badan Siber dan Sandi Negara (BSSN),lihat foto,10000
+155,155,155,Museum Sasmitaloka Panglima Besar Jenderal Sudirman,D.I Yogyakarta,Kota Yogyakarta,Jl. Bintaran Wetan No.3,-7.802129072,110.3760304,Museum Khusus,Tipe A,Tentara Nasional Indonesia Angkatan Darat (TNI AD),lihat foto,32000
+156,156,156,Museum Sejarah Purbakala Pleret,D.I Yogyakarta,Kabupaten Bantul,"Jl. Pleret, Kedaton, Pleret",-7.868368803,110.4055939,Museum Khusus,Tipe C,Dinas Kebudayaan Provinsi Daerah Istimewa Yogyakarta,lihat foto,19000
+157,157,157,Museum Sonobudoyo Unit I,D.I Yogyakarta,Kota Yogyakarta,Jl. Pangurakan No.6,-7.801746765,110.3663576,Museum Khusus,Tipe c,Unit Pelaksana Teknis Daerah (UPTD) Dinas Kebudayaan Daerah Istimewa Yogyakarta,lihat foto,22000
+158,158,158,Museum Sonobudoyo Unit II,D.I Yogyakarta,Kota Yogyakarta,Jl. Wijilan No.27D,-7.804229552,110.3668644,Museum Umum,Tipe A,Dinas Kebudayaan Daerah Istimewa Yogyakarta,lihat foto,50000
+159,159,159,Museum Tani Jawa Indonesia,D.I Yogyakarta,Kabupaten Bantul,"Kampung Tani Candran, Desa Kebonagung, Imogiri, Bantul, Yogyakarta.",-7.924368128,110.371972,Museum Khusus,Tipe C,Yayasan Museum Tani Jawa Indonesia,lihat foto,3000
+160,160,160,Museum Tembi Rumah Budaya,D.I Yogyakarta,Kabupaten Bantul,Jl. Parangtritis No.Km 8.4,-7.869944403,110.3570317,Museum Khusus,Tipe C,dikelola secara mandiri,lihat foto,12000
+161,161,161,Museum Pusat TNI AU Dirgantara Mandala,D.I Yogyakarta,Kabupaten Sleman,"Jl. Raya Janti, Karang Janbe",-7.790202533,110.415887,Museum Khusus,Tipe A,Tentara Nasional Indonesia Angkatan Udara,lihat foto,2000
+162,162,162,Museum Ullen Sentalu,D.I Yogyakarta,Kabupaten Sleman,Jl. Boyong No.KM 25,-7.597227521,110.4214647,Museum Khusus,Tipe A,Lembaga pemerintah pusat,lihat foto,3000
+163,163,163,Museum Universitas Gadjah Mada ,D.I Yogyakarta,Kabupaten Sleman, Jl. Sagan 6 & D-7,-7.773893339,110.3781814,Museum Umum,Tipe B,Universitas Gadjah Mada,lihat foto,5120
+164,164,164,Museum Wayang Kekayon,D.I Yogyakarta,Kabupaten Bantul,Jalan Raya Yogya-Wonosari Km 7 No. 277,-7.814476971,110.4135217,Museum Khusus,Tipe B,Yayasan Sosial Kekayon,lihat foto,3120
+165,165,165,Museum Geopark Gunungsewu,Jawa Timur ,Kabupaten Pacitan,awasan Wisata Pantai Pancerdoor,-8.216884455,111.102127,Museum Khusus,Tipe B,Pemerintah Kabupaten Pacitan,lihat foto,6000
+166,166,166,ndonesian Islamic Art Museum,Jawa Timur ,Kabupaten Lamongan,"Jl. Raya Paciran, Paciran",-6.866678507,112.3618515,Museum Khusus,Tipe A,Dinas Pariwisata dan Kebudayaan Kabupaten Lamongan.,lihat foto,1200
+167,167,167,Museum Dr. Soetomo,Jawa Timur ,Kota Surabaya,Jl. Bubutan No.85-87,-7.250222662,112.7377714,Museum Khusus,Tipe B,"Pemerintah Kota Surabaya melalui Dinas Kebudayaan, Kepemudaan, dan Olahraga Kota Surabaya",lihat foto,400
+168,168,168,Monumen Kapal Selam (Monkasel),Jawa Timur ,Kota Surabaya,Jl. Pemuda No.39,-7.264962121,112.7515497,Museum Khusus,Tipe A,"Pusat Koperasi Angkatan Laut (Puskopal), yang berkoordinasi dengan Tentara Nasional Indonesia Angkatan Laut ",lihat foto,15000
+169,169,169,Museum Airlangga,Jawa Timur ,Kota Kediri,"Jl. Lingkar Maskumambang, Pojok",-7.80735474,111.9742905,Museum Khusus,Tipe B,"Pemerintah Kota Kediri melalui Dinas Kebudayaan, Pariwisata, Pemuda, dan Olahraga (Disbudparpora) Kota Kediri.",lihat foto,14000
+170,170,170,Museum Angkut,Jawa Timur ,Kota Batu,Jl. Terusan Sultan Agung No.2,-7.878061825,112.5225713,Museum Khusus,Tipe A,Jawa Timur Park Group,lihat foto,300
+171,171,171,Museum Anjuk Ladang,Jawa Timur ,Kabupaten Nganjuk,Jalan Gatot Subroto Ringin Anom Ringin Anom Kauman ,-7.593029162,111.8946278,Museum Umum,Tipe C,"Dinas Pariwisata, Kepemudaan, Olahraga, dan Kebudayaan (Disparporabud) Kabupaten Nganjuk",lihat foto,11000
+172,172,172,Museum Blambangan,Jawa Timur ,Kabupaten Banyuwangi,Jl. Jenderal Ahmad Yani No.78,-8.22061674,114.3687316,Museum Umum,Tipe B,Dinas Kebudayaan dan Pariwisata Kabupaten Banyuwangi,lihat foto,1000
+173,173,173,Museum Boemi Poeger,Jawa Timur ,Kabupaten Jember,"RT. 05 RW.06, Dusun Krajan, Desa Kencong,",-8.270248795,113.3692449,Museum Umum,Tipe C,Yayasan Boemi Poeger Persada,lihat foto,40000
+174,174,174,Museum Brawijaya,Jawa Timur ,Kota malang,Jl. Besar Ijen No.25A,-7.971930614,112.621606,Museum Umum,Tipe B,Kodam V/Brawijaya,lihat foto,17000
+175,175,175,Museum Cakraningrat,Jawa Timur ,Kabupaten Bangkatan,Jl. Soekarno Hatta No.35,-7.048382729,112.7359562,Museum Umum,Tipe C,Pemerintah Kabupaten Bangkalan melalui Dinas Kebudayaan dan Pariwisata Kabupaten Bangkalan,lihat foto,17000
+176,176,176,Museum D'Topeng Kingdom 1,Jawa Timur ,Kota Batu,"Jl. Kartika No.2, Sisir, Kec. Batu",-7.715209438,112.6567417,Museum Umum,Tipe C,Jawa Timur Park Group,lihat foto,798
+177,177,177,Museum Sunan Giri,Jawa Timur ,Kabupaten Gresik,Jl. Sunan Giri No.2a,-7.169958574,112.6311936,Museum Khusus,Tipe A,"Dinas Pariwisata, Kebudayaan, Pemuda, dan Olahraga (Disparekrafbudpora) Kabupaten Gresik",lihat foto,800
+178,178,178,Museum Daerah Kabupaten Lumajang,Jawa Timur ,Kabupaten Lumajang,"Jl. Alun-Alun Barat No. 1, Lumajan",-8.07519221,113.2371602,Museum Khusus,Tipe B,Pemerintah Kabupaten Lumajang,lihat foto,400
+179,179,179,Museum Etnografi dan Pusat Kajian Kematian Universitas Airlangga,Jawa Timur ,kota Surabaya," Jl. Dharmawangsa Dalam, Airlangga, Kec. Gubeng, Surabaya, Jawa Timur 60286",-7.272188389,112.7605944,Museum Umum,Tipe B,"Departemen Antropologi, Fakultas Ilmu Sosial dan Ilmu Politik",lihat foto,7500
+180,180,180,Museum Dirgantara A. Sulaksono,Jawa Timur ,Kabupaten Malang,"Krajan, Saptorenggo, Kecamatan Pakis",-7.929226693,112.7040451,Museum Khusus,Tipe B,Tentara Nasional Indonesia Angkatan Udara,lihat foto,3000
+181,181,181,Museum dr. Mohammad Saleh,Jawa Timur ,Kota Probolingo,Jl.DR Jl. Dr. Moch Saleh No.1,-7.752195223,113.2142367,Museum Pribadi,Tipe C,Dinas Kebudayaan dan Pariwisata Kota,lihat foto,12000
+182,182,182,Museum Dr. Soetomo,Jawa Timur ,Kota Surabaya,Jl. Bubutan No.85-87,-7.250576049,112.7365863,Museum Khusus,Tipe C,UPTD Museum dan Gedung Seni Budaya,lihat foto,1200
+183,183,183,Museum Gubug Wayang Mojokerto,Jawa Timur ,Kota Mojokerto,Jl. Kartini No.23,-7.465455721,112.4312476,Museum Khusus,Tipe B,Sendjojo Njoto Seni Budoyo,lihat foto,3000
+184,184,184,Gedung Teater dan Museum Gunung Kelud,Jawa Timur ,Kabupaten Kediri,"Rejomulyo, Sugihwaras, Kecamatan Ngancar, Kabupaten Kediri, Jawa Timur 64291, Indonesia .",-7.926609345,112.2364837,Museum Khusus,Tipe C,Pemerintah Kabupaten Kediri,lihat foto,5120
+185,185,185,Museum Huruf Jember,Jawa Timur ,Kabupaten Jember,Jl. Bengawan Solo No.27,-8.167785812,113.7098798,Museum Khusus,Tipe C,Institut Museum dan Cagar Budaya Nusantara,lihat foto,3120
+186,186,186,Museum Kambang Putih,Jawa Timur ,Kabupaten Tuban,"JL. Kartini No.03, Kutorejo, Kec. Tuban, Kabupaten Tuban, Jawa Timur 62311",-6.895847766,112.0638883,Museum Umum,Tipe B,"Dinas Kebudayaan, Pariwisata, Pemuda, dan Olahraga (Disparbudpora) Kabupaten Tuban",lihat foto,6000
+187,187,187,Museum Kanker Indonesia,Jawa Timur ,Kota Surabaya,Jl. Kayoon No.16-18,-7.267205084,112.7493503,Museum Khusus,Belom Memenuhi Standar,Yayasan Kanker Wisnuwardhana,lihat foto,500
+188,188,188,Museum Keraton Sumenep,Jawa Timur ,Kota Sumenap, Jl. Dr. Sutomo No.6,-7.007957863,113.8634667,Museum Umum,Tipe C,"Dinas Kebudayaan, Kepemudaan, Olahraga, dan Pariwisata Kabupaten Sumenep melalui Unit Pelaksana Teknis ",lihat foto,400
+189,189,189,Museum Kereta Api Bondowoso,Jawa Timur ,Bondowoso,Jl. Imam Bonjol No. 13,-7.916806047,113.8299079,Museum Khusus,Belom Memenuhi Standar,PT Kereta Api Indonesia ,lihat foto,13000
+190,190,190,"Museum Kesehatan Dr. Adhyatma, MPH",Jawa Timur ,Kota Surabaya,Jl. Indrapura No.17,-7.240168343,112.7319996,Museum Khusus,Belom di standarisasi,Pusat Penelitian dan Pengembangan Sistem dan Kebijakan Kesehatan Kementerian Kesehatan Republik Indonesia,lihat foto,12000
+191,191,191,Museum Tembakau Jember,Jawa Timur ,Kabupaten Jember,Jl. Kalimantan No.1,-8.158731407,113.7148541,Museum Khusus,Belom di standarisasi,Unit Pelaksana Teknis (UPT) Pengujian Sertifikasi Mutu Barang dan Lembaga Tembakau Jember,lihat foto,300
+192,192,192,Museum Musik Indonesia,Jawa Timur ,Kota malang, Jl. Soekarno Hatta No.210,-7.940283269,112.6193146,Museum Khusus,Tipe B,Galeri Malang Bernyanyi,lihat foto,11000
+193,193,193,Museum Nahdlatul Ulama,Jawa Timur ,Kota Surabaya,Jl. Gayungsari Bar. X No.11,-7.337900878,112.7244322,Museum Khusus,Tipe B,Nahdlatul Ulama,lihat foto,10000
+194,194,194,Museum Negeri Mpu Tantular,Jawa Timur ,Kabupaten Sidoajo,Jl. Raya Buduran - Jembatan Layang,-7.433458858,112.7207464,Museum Umum,Tipe B,Dinas Kebudayaan dan Pariwisata Provinsi Jawa Timur,lihat foto,4000
+195,195,195,Museum Indonesian Old Cinema,Jawa Timur ,Kota malang,Jl. Soekarno Hatta No.45,-7.937080501,112.628084,Museum Khusus,Tipe B,Drs. Hariadi,lihat foto,20000
+196,196,196,Museum Panji,Jawa Timur ,Kota malang,Jl. Raya Bangilan No.I,-8.002071044,112.7325067,Museum Khusus,Tipe B,ayasan Inggil Malang,lihat foto,16000
+197,197,197,Museum Penataran,Jawa Timur ,Kabupaten Blitar,Jl. Raya Penataran No.11,-8.012187658,112.2097264,Museum Khusus,Tipe A,"Dinas Pariwisata, Kebudayaan, Pemuda, dan Olahraga ",lihat foto,32000
+198,198,198,Museum Pendidikan Kota Malang,Jawa Timur ,Kota Malang,"Jl. Raya Tlogowaru, Tlogowaru",-8.034247192,112.6498802,Museum Khusus,Tipe B,Dinas Pendidikan dan Kebudayaan,lihat foto,800
+199,199,199,Museum Hidup Polrestabes Surabaya,Jawa Timur ,Kota Surabaya,Jl. Sikatan No.1,-7.239104923,112.7380367,Museum Khusus,Tipe A,Polrestabes Surabaya,lihat foto,400
+200,200,200,Museum Potehi Gudo,Jawa Timur ,Jombang,"Jalan Raya Wangkal, Dusun Tukangan,",-7.627507414,112.1916805,Museum Khusus,Tipe A,Yayasan Fu He An Indonesia,lihat foto,12000
+201,201,201,Museum Singhasari,Jawa Timur ,Kota malang,"Krajan, Klampok, Kec. Singosari, Kabupaten Malang, Jawa Timur 65153",-7.881001687,112.6416823,Museum Khusus,Tipe C,Dinas Pariwisata dan Kebudayaan Kabupaten Malang,lihat foto,25000
+202,202,202,Museum Teknoform,Jawa Timur ,Kota surabaya,"Jl. Raya Kedung Baruk No.98, Kedung Baruk, Kec. Rungkut, Surabaya, Jawa Timur 60298",-7.311225161,112.7831826,Museum Umum,Tipe C,Universitas Dinamika,,45000
+203,,,Museum Sri Serindit Natuna,Kepulauan Riau,Kabupaten Natuna,JL. IMAM H. ISMAIL,3.94916197,108.3679246,Museum Umum,Tipe C,Zaharuddin,,1200
+204,,,Museum Islam Samudra Pasai Kabupaten Aceh Utara,Aceh,Kabupaten Aceh Utara,Gampong Beuringen Kecamatan Samudera,5.132788383,97.20205579,Museum Umum,Tipe C,Dinas Pendidikan Dan Kebudayaan Kabupaten Aceh Utara,,3120
+205,,,Museum Kota Langsa,Aceh,Kota Sabang,Jl. Ahmad Yani,4.471378134,97.96692922,Museum Umum ,Tipe B,Dinas Pendidikan Dan Kebudayaan Kabupaten Aceh Utara,,6000
+206,,,Museum Sabang,Aceh,Kota Sabang,Jl. O. Surapati,5.899461744,95.3161835,Museum Umum,Tipe C,Badan Pengusahaan Kawasan Perdagangan Bebas Dan Pelabuhan Bebas (BPKS),,500
+207,,,Museum Aceh,Aceh,Kota Banda Aceh,Jl. Sultan Alaiddin Mahmudsyah No.12,5.548723392,95.32093808,Museum Umum,Tipe A,Dinas Kebudayaan Dan Pariwisata Aceh,,400
+208,,,Museum Tsunami,Aceh,Kota Banda Aceh,Jl Sultan Iskandar Muda No.3 Blang Padang,5.547990543,95.31520619,Museum Khusus,Tipe B,Dinas Kebudayaan Dan Pariwisata Aceh,,13000
+209,,,Museum Negeri Gayo,Aceh,Kabupaten Aceh Tengah,Jl. Mess Time Ruang,4.702341401,96.8358472,Museum Umum,Tipe C,Dinas Pendidikan Dan Kebudayaan Kabupaten Aceh Tengah,,12000
+210,,,Museum Pidie Jaya,Aceh,Kabupaten Pidie Jaya,Taman Kota Komplek Perkantoran Bupati,5.229961204,96.24261824,Museum Umum,Belum Distandarisasi,DINAS PENDIDIKAN DAN KEBUDAYAAN,,300
+211,,,Museum Kota Juang Bireuen,Aceh,Kabupaten Bireuen,Jln.Tgk. Pulo Kiton Lr.Hob Mubin No. 30,5.208105114,96.69941236,Museum Umum,Belum Distandarisasi,Yayasan Museum Kota Juang Bireuen,,11000
+212,,,Rahmat International Wildlife Museum & Gallery,Sumatera Utara,Kota Medan,Jl. S. Parman no. 309 Medan,3.579486598,98.66746378,Museum Khusus,Tipe C,Yayasan Rahmat Indonesia,,10000
+213,,,Museum Pahlawan Nasional Jamin Gintings,Sumatera Utara,Kabupaten Karo,Jl. Museum Suka,3.061094457,98.52056131,Museum Khusus,Tipe A,Keluarga Jamin Gintings,,32000
+214,,,Museum Perkebunan Indonesia,Sumatera Utara,Kota Medan,Jl. Brigjen Katamso No.53 (Komp.PPKS) Medan,3.558240871,98.6885195,Museum Khusus,Tipe B,Yayasan Museum Perkebunan Indonesia,,19000
+215,,,Museum Negeri Provinsi Sumatera Utara ,Sumatera Utara,Kota Medan,Jl. H. M. Joni No. 51,,,,,,,22000
+216,,,Museum Kota Tebing Tinggi,Sumatera Utara,Kota Tebing Tinggi,Jl. Kotamadya,,,,,,,50000
+217,,,Museum Daerah Kabupaten Langkat ,Sumatera Utara,Kabupaten Langkat,Jl. T. Amir Hamzah,3.89269718987612,98.42566139,Museum Umum,Tipe C,Dinas Pariwisata Dan Kebudayaan Kabupaten Langkat,,3000
+218,,,Museum Pusaka Karo,Sumatera Utara,Kabupaten Karo,Jl. Perwira No 1 Kota Berastagi,3.194835519,98.50828865,Museum Umum,Tipe C,Yayasan Pusaka Karo,,12000
+219,,,Museum Batak TB Silalahi Center,Sumatera Utara,Kabupaten Toba Samosir,Jl. Dr. TB Silalahi No.88,2.333418899,99.04843289,Museum Umum,Tipe B,Yayasan T.B. Silalahi,,2000
+220,,,Raz Collection Museum and Gallery,Sumatera Utara,Kota Medan,Gedung Raz Plaza,,,,,,,3000
+221,,,Museum Huta Bolon Simanindo ,Sumatera Utara,Kabupaten Samosir,Jl. Pelabuhan Simanindo,2.752527228,98.74414015,Museum Umum,Belum Memenuhi Standar,Yayasan Huta Bolon Simanindo,,5120
+222,,,Museum Karo Lingga,Sumatera Utara,Kabupaten Karo,Jl. Tasak Telu,3.118194972,98.47518653,Museum Umum,Belum Memenuhi Standar,Yayasan Museum Karo Lingga,,3120
+223,,,Museum Perjuangan TNI Kodam I,Sumatera Utara,Kota Medan,Jl. Zainul Arifin No. 8,3.584038012,98.67421872,Museum Khusus,Belum Memenuhi Standar,Bintaldam I/BB,,6000
+224,,,Museum Daerah Deli Serdang,Sumatera Utara,Kabupaten Deli Serdang,Jalan Negara – Lubuk Pakam,,,,,,,1200
+225,,,Museum Rumah Kelahiran Buya Hamka,Sumatera Barat,Kabupaten Agam,Jorong Tanah Sirah Nagari Sungai Batang Kecamatan Tanjung Raya,-0.352724254,100.2185534,Museum Khusus,Tipe C,,,400
+226,,,Museum Tuanku Imam Bonjol,Sumatera Barat,Kabupaten Pasaman,Jl. Lintas Sumatera Bukittinggi – Medan km. 55 Bonjol Pasaman Sumatera Barat,0.00163415,100.2210697,Museum Umum,Tipe C,Dinas Pariwisata,,15000
+227,,,Museum Rumah Kelahiran Bung Hatta,Sumatera Barat,Kota Bukittingi,Jl. Soekarno Hatta No. 37,,,,,,,14000
+228,,,Museum Situs Lubang Tambang Mbah Soero,Sumatera Barat,Kota Sawah Lunto,Jl. Kampung Teleng Kel. Pasar,,,,,,,300
+229,,,Museum Kereta Api Kota Sawahlunto,Sumatera Barat,Kota Sawah Lunto,Jl. A. Yani,,,,,,,11000
+230,,,Museum Istano Basa Pagaruyung,Sumatera Barat,Kabupaten Tanah Datar,Jl. Sutan Alam Bagagarsyah,,,,,,,1000
+231,,,Museum Rumah Adat nan Baanjuang,Sumatera Barat,Kota Bukittingi,Jl. Cindua Mato No. 10,-0.30044354,100.3695796,Museum Umum,Tipe C,Dinas Pendidikan Dan Kebudayaan Kota Bukittinggi,,40000
+232,,,Museum Adityawarma,Sumatera Barat,Kota Padang,Jl. Diponegoro No. 10,-0.956527716,100.3562137,Museum Umum,Tipe B,Dinas Kebudayaan Provinsi Sumatera Barat,,17000
+233,,,Museum Goedang Ransoem,Sumatera Barat,Kota Sawah Lunto,Jl. Abdurrahman Hakim,,,,,,,17000
+234,,,Museum Sang Nila Utama dan Taman Budaya,Riau,Kota Pekanbaru,Jl. Jenderal Sudirman No. 194,0.494335011,101.4544862,Museum Umum,Tipe C,Dinas Kebudayaan Provinsi Riau,,798
+235,,,Museum Budaya dan Sejarah Siak Balai Rung Sri,Riau,Kab. Siak,Jl. Sultan Ismail,,,,,,,800
+236,,,Museum Tionghoa,Riau,Kabupaten Rokan Hilir,Bagan Punak Pesisir,2.65520383,100.9033115,Museum Khusus,Belum Memenuhi Kriteria Syarat,Dinas Pendidikan Dan Kebudayaan Kabupaten Rokan Hilir,,400
+237,,,Museum Perjuangan Rakyat Jambi,Jambi,Kota Jambi,Jl. Sultan Agung No.12 ,-1.596263,103.606871,Museum Khusus,Tipe B,Dinas Kebudayaan Dan Pariwisata Provinsi Jambi,,7500
+238,,,Museum Menara Gentala Arasy ,Jambi,Kota Jambi,Kel. Arab Melayu,,,,,,,3000
+239,,,Museum Siginjei,Jambi,Kota Jambi,Jl. Urip Sumoharjo No. 01,-1.607664678,103.5928023,Museum Umum,Tipe A,Dinas Kebudayaan Dan Pariwisata Provinsi Jambi,,12000
+240,,,Museum Perjuangan Subkoss Garuda Sriwijaya,Sumatera Selatan,Kota Lubuklinggau,Jalan Garuda Hitam,,,,,,,1200
+241,,,Monumen Perjuangan Rakyat Sumatera Bagian Selatan / Monpera,Sumatera Selatan,Kota Palembang,Jl. Merdeka No.1,-2.97416025,104.7613928,Museum Khusus,Belum Memenuhi Standar,UPTD Pengelolaan Sarana Dan Objek Wisata Dinas Pariwisata Kota Palembang,,3000
+242,,,Museum Dr. A.K. Gani ,Sumatera Selatan,Kota Palembang,Jl. Mp. Mangkunegara No. 1,-2.929796119,104.7696356,Museum Khusus,Tipe C,Yayasan H.J.R.A Masturah A.K. Gani,,5120
+243,,,Museum Negeri Sumatera Selatan,Sumatera Selatan,Kota Palembang,Jl. Srijaya I,,,,,,,3120
+244,,,Museum Sriwijaya,Sumatera Selatan,Kota Palembang,Jl. Syakhyakirti,-3.015032,104.734418,Museum Umum,Tipe B,Dinas Kebudayaan Dan Pariwisata Provinsi Sumatera Selatan,,6000
+245,,,Museum Sultan Mahmud Badaruddin II Palembang,Sumatera Selatan,Kota Palembang,Jl. Sultan Mahmud Badaruddin II No.2,-2.989887873,104.7614226,Museum Umum,Tipe A,Dinas Kebudayaan Kota Palembang,,
+246,,,,,,,,,,,,,
+247,,,,,,,,,,,,,
+248,,,,,,,,,,,,,
+249,,,,,,,,,,,,,
+250,,,,,,,,,,,,,
+251,,,,,,,,,,,,,
+252,,,,,,,,,,,,,
+253,,,,,,,,,,,,,
+254,,,,,,,,,,,,,
+255,,,,,,,,,,,,,
+256,,,,,,,,,,,,,
+257,,,,,,,,,,,,,
+258,,,,,,,,,,,,,
+259,,,,,,,,,,,,,
+260,,,,,,,,,,,,,
+261,,,,,,,,,,,,,
+262,,,,,,,,,,,,,
+263,,,,,,,,,,,,,
+264,,,,,,,,,,,,,
+265,,,,,,,,,,,,,
+266,,,,,,,,,,,,,
+267,,,,,,,,,,,,,
+268,,,,,,,,,,,,,
+269,,,,,,,,,,,,,
+270,,,,,,,,,,,,,
+271,,,,,,,,,,,,,
+272,,,,,,,,,,,,,
+273,,,,,,,,,,,,,
+274,,,,,,,,,,,,,
+275,,,,,,,,,,,,,
+276,,,,,,,,,,,,,
+277,,,,,,,,,,,,,
+278,,,,,,,,,,,,,
+279,,,,,,,,,,,,,
+280,,,,,,,,,,,,,
+281,,,,,,,,,,,,,
+282,,,,,,,,,,,,,
+283,,,,,,,,,,,,,
+284,,,,,,,,,,,,,
+285,,,,,,,,,,,,,
+286,,,,,,,,,,,,,
+287,,,,,,,,,,,,,
+288,,,,,,,,,,,,,
+289,,,,,,,,,,,,,
+290,,,,,,,,,,,,,
+291,,,,,,,,,,,,,
+292,,,,,,,,,,,,,
+293,,,,,,,,,,,,,
+294,,,,,,,,,,,,,
+295,,,,,,,,,,,,,
+296,,,,,,,,,,,,,
+297,,,,,,,,,,,,,
+298,,,,,,,,,,,,,
+299,,,,,,,,,,,,,
+300,,,,,,,,,,,,,
+301,,,,,,,,,,,,,
+302,,,,,,,,,,,,,
+303,,,,,,,,,,,,,
+304,,,,,,,,,,,,,
+305,,,,,,,,,,,,,
+306,,,,,,,,,,,,,
+307,,,,,,,,,,,,,
+308,,,,,,,,,,,,,
+309,,,,,,,,,,,,,
+310,,,,,,,,,,,,,
+311,,,,,,,,,,,,,
+312,,,,,,,,,,,,,
+313,,,,,,,,,,,,,
+314,,,,,,,,,,,,,
+315,,,,,,,,,,,,,
+316,,,,,,,,,,,,,
+317,,,,,,,,,,,,,
+318,,,,,,,,,,,,,
+319,,,,,,,,,,,,,
+320,,,,,,,,,,,,,
+321,,,,,,,,,,,,,
+322,,,,,,,,,,,,,
+323,,,,,,,,,,,,,
+324,,,,,,,,,,,,,
+325,,,,,,,,,,,,,
+326,,,,,,,,,,,,,
+327,,,,,,,,,,,,,
+328,,,,,,,,,,,,,
+329,,,,,,,,,,,,,
+330,,,,,,,,,,,,,
+331,,,,,,,,,,,,,
+332,,,,,,,,,,,,,
+333,,,,,,,,,,,,,
+334,,,,,,,,,,,,,
+335,,,,,,,,,,,,,
+336,,,,,,,,,,,,,

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="INPORT_MUSEUM_INDONESIA-INPORT_MUSEUM_INDONESIA">
+        <SrcDataSource relativeToVRT="1">INPORT_MUSEUM_INDONESIA.csv</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>INPORT_MUSEUM_INDONESIA</SrcLayer>
+        <Field name="fid" src="fid" type="String"/>
+        <Field name="ID" src="ID" type="String"/>
+        <Field name="kode" src="kode" type="String"/>
+        <Field name="NAMA ITEM DATA" src="NAMA ITEM DATA" type="String"/>
+        <Field name="Provinsi" src="Provinsi" type="String"/>
+        <Field name="Kabupaten" src="Kabupaten" type="String"/>
+        <Field name="Alamat" src="Alamat" type="String"/>
+        <Field name="LATITUDE" src="LATITUDE" type="Real"/>
+        <Field name="LONGITUDE" src="LONGITUDE" type="Real"/>
+        <Field name="Jenis Museum" src="Jenis Museum" type="String"/>
+        <Field name="Tipe Museum" src="Tipe Museum" type="String"/>
+        <Field name="Pengelola" src="Pengelola" type="String"/>
+        <Field name="Foto" src="Foto" type="String"/>
+        <Field name="Pengunjung" src="Pengunjung" type="Real"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
